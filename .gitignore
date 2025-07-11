@@ -1,3 +1,5 @@
 node_modules/
 .env
 .DS_Store
+red_assistant/logs/
+__pycache__/

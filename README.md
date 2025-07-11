@@ -15,3 +15,16 @@
 - "подарок девушке до 30 евро"
 
 Проект использует HTML + JS и подходит для запуска минимального MVP.
+
+---
+
+## Red Assistant
+
+В папке `red_assistant` находится прототип голосового ассистента на Python. Он использует SpeechRecognition для распознавания речи, простые функции для выполнения команд и свободную модель `distilgpt2` из библиотеки `transformers` для генерации ответов. Все ответы и ошибки пишутся в файл `red_assistant/logs/assistant.log`.
+
+### Запуск
+
+```bash
+pip install -r requirements.txt
+python -m red_assistant
+```
